@@ -1,0 +1,68 @@
+h1 {
+    color:darkgreen;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    padding:20px;
+    margin-top:40px;
+}
+
+.switch {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.survey {
+    width: 300px;
+}
+
+.checkbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linear {
+    color: red;
+}
+
+.tactile {
+    color:brown;
+}
+
+.clicky {
+    color:blue;
+}
+
+.switchdesc {
+    margin-left: 20px;
+
+}
+
+.switchdesc1 {
+    font-size: smaller;
+}

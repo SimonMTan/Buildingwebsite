@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Custom keyboard</title>
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="navigationoption">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="switches.html">Switches</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="recommendation.html">Recommendation</a></li>
+        </ul>
+    </nav>
+<h1 class="footer"> Type of switches</h1>
+<h2 class="linear">Linear switches</h2>
+    <p>They are the simplest ones. They feel the same from the moment you start pressing the key until bottoming out. There is no tactile feedback or noise when hitting the actuation point (the point where the keypress gets registered – usually somewhere in the middle). So, most of the time, you will probably bottom out on each key press. The example of linear switch is Cherry red switches.</p>
+
+<h2 class="tactile">Tactile switches</h2>
+    <p>They provide tactile feedback, when hitting the actuation point. As you press the key down, you will notice a small bump, which lets you know, that your key press got successfully registered. The example of tactile switch is Cherry brown switches.</p>
+
+<h2 class="clicky">Clicky switches</h2>
+    <p>provide an additional click sound, when hitting the actuation point. The main advantage of tactile and clicky switches is that you don’t have to push the key all the way down. You can release the key immediately after you receive the feedback.The example of clicky switch is cherry blue switches.</p>
+
+
+<div>Quick Survey✍(◔◡◔)(optional)</div>
+<fieldset class="survey">
+    <div>
+        <label for="firstName">First name:</label>
+        <input type="text" id="firstName" name="first_name">
+    </div>
+
+    <div>
+    <label for="lastName">Last name:</label>
+    <input type="text" id="lastName" name="last_name">
+    </div>
+
+    <div>
+        <p class="favswitch">Choose your favorite switches🔴🟤🔵</p>
+        <div class="switcheschoices">
+            <input type="radio" id="linear" name="fav_switches" value="linear">
+            <label for="linear">Linear🔴</label><br>
+            <input type="radio" id="tactile" name="fav_switches" value="tactile">
+            <label for="tactile">Tactile🟤</label><br>
+            <input type="radio" id="clicky" name="fav_switches" value="clicky">
+            <label for="clicky">Clicky🔵</label>
+        </div>
+    </div>
+
+    <div>
+        <div class="checkbox">Is this article helpful?
+            <input type="checkbox" id="yes" name="yes" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="checkbox" id="no" name="no" value="no">
+            <label for="no"> No</label>
+    </div>
+
+    <div>
+        <button class="button" type="submit">Submit</button>
+    </div>
+</fieldset>
